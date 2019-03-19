@@ -49,7 +49,7 @@ testando uma por uma até achar a correta)
 *Está pronto =)*
 
 ***
-- Cansativo e robótino não?
+- Cansativo e robótico não?
 
 Num algorítmo precisamos levar em conta todos os passos necessários a serem executados para que após a tarefa se obtenha o resultado esperado. Caso não esteja correto os dados finais, refinamos o código até tudo funcionar corretamente.
 
