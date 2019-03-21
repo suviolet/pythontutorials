@@ -66,21 +66,69 @@ Mas para que o computador consiga ler um algoritmo precisamos utilizar uma `ling
 
 - algoritmo determinístico  
 
-Algoritmo que sempre produz o mesmo resultado/ valor dado uma determinada entrada de dados, ou seja, se comporta da mesma maneira em distintas execuções de um mesmo algoritmo.
-Considerado um dos tipos mais comuns. Ex:
+Algoritmo que sempre produz o mesmo resultado/valor dado uma determinada entrada de dados, ou seja, se comporta da mesma maneira em distintas execuções de um mesmo algoritmo.
+Considerado um dos tipos mais comuns. 
+
+ex:  
+```python
+>>> a = 2
+>>> b = 3
+>>> c = a + b
+>>> c
+5
+```
+
 
 - algoritmo não determinístico  
 
 Algoritmo que produz resultados diferentes mesmo com a mesma entrada de dados, ou seja, se comporta de maneira distinta em diversas execuções do mesmo algoritmo.
 Se um código necessita de um fator externo aleatório para uma execução ele é considerado não determinístico.
 
+ex  
+
+```python
+>>> import datetime # módulo do python para tipos básicos de data e hora
+>>> a = datetime.datetime.now()
+>>> a = a.day
+>>> a # código escrito num dia 21
+21 
+>>> b = 3
+>>> c = a + b
+>>> c
+24
+# o resultado desse código varia de acordo com a data em que será executado
+```
+
 - algoritmo probabilístico  
 
-Algoritmo que produz resultados diferentes devido à entrada de dados ser gerada com base em números aleatórios, ou seja, se comporta de forma distinta em diversas execuções justamente por receber dados aleatórios como entrada, tendo diversas probabilidades de resultados.
+Algoritmo que produz resultados diferentes devido à entrada de dados ser gerada com base em números pseudo-aleatórios, ou seja, se comporta de forma distinta em diversas execuções justamente por receber dados aleatórios como entrada, tendo diversas probabilidades de resultados.
+
+ex:  
+```python
+>>> import random # módulo do python para geração de números pseudo-aleatórios
+>>> a = random.randint(1,10)
+>>> a # nessa execução saiu o número 5
+5
+>>> b = 3
+>>> c = a + b
+>>> c
+8
+# o resultado desse código varia de acordo o número escolhido aleatoriamente durante sua execução
+```
 
 - algoritmo concorrente  
 
 Algoritmo que permite a execução de dois ou mais processos simultaneamente sem gerar conflitos.
+
+ex:   
+```
+Diversos workers que fazem a mesma coisa, 
+pegam conteúdo da fila para processar e armazenam o conteúdo processado em algum lugar X.
+
+Como no caso do cinema, uma fila de usuários esperando ser atendidos por uma série de atendentes (workers), 
+executando algoritmos concorrentes e armazenando os dados de seleção e compra de cada usuário num banco de dados no sistema.
+```
+
 
 
 
