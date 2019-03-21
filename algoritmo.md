@@ -59,3 +59,29 @@ Linha por linha, seguindo a ordem pela qual é apresentada, respeitando laços d
 
 ***
 Mas para que o computador consiga ler um algoritmo precisamos utilizar uma `linguagem de programação`.
+
+
+***
+#### Diferentes tipos de algoritmos:
+
+- algoritmo determinístico  
+
+Algoritmo que sempre produz o mesmo resultado/ valor dado uma determinada entrada de dados, ou seja, se comporta da mesma maneira em distintas execuções de um mesmo algoritmo.
+Considerado um dos tipos mais comuns. Ex:
+
+- algoritmo não determinístico  
+
+Algoritmo que produz resultados diferentes mesmo com a mesma entrada de dados, ou seja, se comporta de maneira distinta em diversas execuções do mesmo algoritmo.
+Se um código necessita de um fator externo aleatório para uma execução ele é considerado não determinístico.
+
+- algoritmo probabilístico  
+
+Algoritmo que produz resultados diferentes devido à entrada de dados ser gerada com base em números aleatórios, ou seja, se comporta de forma distinta em diversas execuções justamente por receber dados aleatórios como entrada, tendo diversas probabilidades de resultados.
+
+- algoritmo concorrente  
+
+Algoritmo que permite a execução de dois ou mais processos simultaneamente sem gerar conflitos.
+
+
+
+
