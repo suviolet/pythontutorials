@@ -51,7 +51,7 @@ testando uma por uma até achar a correta)
 ***
 - Cansativo e robótico não?
 
-Num algoritmo precisamos levar em conta todos os passos necessários a serem executados para que após a tarefa se obtenha o resultado esperado. Caso não esteja correto os dados finais, refinamos o código até tudo funcionar corretamente.
+Num algoritmo precisamos levar em conta todos os passos necessários a serem executados para atingir o objetivo. Caso não esteja correto os dados finais, refinamos o código até tudo funcionar corretamente.
 
 - Como um algorítmo é interpretado (por pessoas / computador)?
 
