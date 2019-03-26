@@ -48,4 +48,4 @@ Como por exemplo as distribuições Linux.
 
 ***
 
-Com filosofias semelhantes,ambos os movimentos permitiram a criação de diversas comunidades ativas com o intuito de se unirem para melhorar softwares e linguagens de programação, pessoas que trabalham de forma ativa e conjunta em prol de melhorias dos mesmos.
+Com filosofias semelhantes, ambos os movimentos permitiram a criação de diversas comunidades ativas com o intuito de se unirem para melhorar softwares e linguagens de programação, pessoas que trabalham de forma ativa e conjunta em prol de melhorias dos mesmos.
